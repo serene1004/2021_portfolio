@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation {max-width: 1200px;margin: 0 auto;padding: 50px 0 100px 0;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form {text-align: center;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form > textarea {width: 100%;height: 200px;font-size: 14px;color: #444;padding: 10px;font-family: 'Noto Sans KR';border: 2px solid #000;border-radius: 5px;outline: none;resize: none;box-sizing: border-box;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .agree {display: inline-block;padding-top: 15px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .agree input {margin: 0 5px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .agree label {margin-right: 10px;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table {padding-top: 30px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table {border-top: 1px solid #000;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody {text-align: left;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody th {width: 180px;padding: 15px;background: #f9fafb;border-bottom: 1px solid #eaecf1;position: relative;text-indent: 15px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody th::after {content: '*';display: inline-block;position: absolute;left: 5px;font-size: 14px;color: #c51917;margin-top: 1px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td {width: 1020px;padding: 15px;border-bottom: 1px solid #eaecf1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td > input {width: 100%;border: 1px solid #ddd;padding: 5px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td > textarea {width: 100%;height: 100px;border: 1px solid #ddd;padding: 5px;resize: none;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td .phone1 {display: inline-block;width: 100px;margin: 0 5px;border: 1px solid #ddd;padding: 5px;font-family: 'Noto Sans KR';}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td .phone2 {display: inline-block;width: 100px;margin: 0 5px;font-family: 'Noto Sans KR';}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table table tbody td .phone3 {display: inline-block;width: 100px;margin: 0 5px;font-family: 'Noto Sans KR';}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap {position: relative;padding-top: 50px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span {display: inline-block;border: 1px solid #25282d;background: #41464e;position: relative;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span:last-child {background: #92999e;border: 1px solid #92999e;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span > a {display: block;font-size: 15px;color: #fff;letter-spacing: 1px;padding: 15px 35px;position: relative;z-index: 2;transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span:hover > a {color: #060c30;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span > i {display: inline-block;position: absolute;z-index: 1;top: 0;left: -140%;width: 120%;height: 100%;background: #fff;transform: skewX(-20deg);transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .reservation form .reservation-table .btn-wrap > span:hover > i {left: -10%;}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+

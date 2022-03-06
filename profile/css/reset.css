@@ -1,0 +1,18 @@
+@charset "UTF-8";
+* {margin: 0;padding: 0;vertical-align: middle;}
+html, body {width: 100%;height: 100%;}
+html {overflow-y:scroll;}
+html.addModal {overflow-y:hidden;}
+html::-webkit-scrollbar {display: none;}
+body {font: normal 14px/1 'Playfair Display','Roboto','Noto Sans KR','Nanum Gothic','Montserrat Alternates','arial','sans-serif';color: #444; background: #f7f7f7;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 14px;}
+em, i, address {font-style: normal;}
+ul, li {list-style: none;}
+.clearfix::after{content: '';display: block; clear: both;}
+.hide {display: none;}
+.blind {text-indent: -2000px;overflow: hidden;}
+a{color: #444;text-decoration: none;}
+a:hover {outline: 0;}
+a:focus {outline: 0;}
+table {border-collapse: collapse;}
+header, main, section, footer {display: block;}

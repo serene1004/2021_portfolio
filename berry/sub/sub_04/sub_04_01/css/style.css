@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content {}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .left {float: left;width: 45%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .left > ul {}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .left > ul > h3 {font-size: 20px;color: #101950;font-weight: 600;line-height: 150%;padding: 20px 0;margin-left: 20px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .left > ul > li {list-style: square;color: #555;padding: 5px 0;margin-left: 20px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .left > ul > li > span {font-size: 15.5px;color: 555;font-weight: 300;line-height: 150%;}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .right {float: left;width: 55%;text-align: right;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .top-content > .right img {display: inline-block;width: auto;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content {padding-top: 40px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .left {float: left;width: 55%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .left img {display: inline-block;width: auto;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .right {float: left;width: 45%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .right > ul {}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .right > ul > h3 {font-size: 20px;color: #101950;font-weight: 600;line-height: 150%;padding: 20px 0;margin-left: 20px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .right > ul > li {list-style: square;color: #555;padding: 5px 0;margin-left: 20px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .bottom-content > .right > ul > li > span {font-size: 15.5px;color: 555;font-weight: 300;line-height: 150%;}

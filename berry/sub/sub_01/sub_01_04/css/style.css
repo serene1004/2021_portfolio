@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content  {max-width: 1300px;margin: 0 auto;position: relative;padding-bottom: 100px;text-align: center;}
+#wrap #main #section1 .wrap .gap .container .sub-content .img-box {padding-top: 110px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .img-box img {display: inline-block;}
+#wrap #main #section1 .wrap .gap .container .sub-content h3 {font-size: 28px;color: #444;font-weight: 300;line-height: 150%;padding-top: 25px;}
+#wrap #main #section1 .wrap .gap .container .sub-content h3 strong {display: inline-block;font-size: 28px;color: #3c4147;    margin-bottom: 5px;}
+#wrap #main #section1 .wrap .gap .container .sub-content p {font-size: 15px;color: #444;font-weight: 300;line-height: 200%;}

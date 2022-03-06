@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board {padding-top: 15px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table {width: 100%;text-align: center;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > thead th {font-size: 16px;color: #222;font-weight: 500;padding: 20px;background: #f9fafb;border-top: 2px solid #505c78;border-bottom: 1px solid #ddd;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > thead th:nth-child(1) {width: 15%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > thead th:nth-child(2) {width: 85%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td {font-size: 16px;color: #555;padding: 20px;border-bottom: 1px solid #ddd;position: relative;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(1) {font-weight: 600;letter-spacing: 1px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) {text-align: left;text-indent: 15px;cursor: pointer;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2):hover {color: #f15b6d;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a {position: absolute;top: 9px;right: 15px;width: 36px;height: 36px;border: 1px solid #ddd;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a:hover {border-color: #f15b6d;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a > i {display: inline-block;background: #ddd;position: absolute;z-index: 2;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a > i:nth-child(1) {width: 14px;height: 2px;top: 17px;left: 11px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a > i:nth-child(2) {width: 2px;height: 14px;top: 11px;left: 17px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > table > tbody td:nth-child(2) > a:hover > i {background: #f15b6d;transform: rotate(-180deg);}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap {padding: 30px 0;position: relative;border-bottom: 1px dashed #ddd;text-align: center;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap > span {display: inline-block;border: 1px solid #25282d;background: #41464e;position: relative;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap > span > a {display: block;font-size: 14px;color: #fff;letter-spacing: 1px;padding: 12px 24px;position: relative;z-index: 2;transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap > span:hover > a {color: #060c30;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap > span > i {display: inline-block;position: absolute;z-index: 1;top: 0;left: -140%;width: 120%;height: 100%;background: #fff;transform: skewX(-20deg);transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap > span:hover > i {left: -10%;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap .notice-search {display: inline-block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap .notice-search select {display: inline-block;width: 80px;height: 40px;border: 1px solid #ddd;text-indent: 5px;font-family: 'Noto Sans KR';}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board > .btn-wrap .notice-search input {display: inline-block;width: 200px;height: 38px;border: 1px solid #ddd;text-indent: 5px;font-family: 'Noto Sans KR';}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation {display: flex;justify-content: center;padding-top: 30px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .prev-box {float: left;display: block;margin: 0 2px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .next-box {float: left;display: block;margin: 0 2px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .next-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .prev-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .prev-box a i {position: absolute;top: 12px;left: 14px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .next-box a i {position: absolute;top: 12px;left: 14px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .prev-box a:hover i {opacity: 1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .next-box a:hover i {opacity: 1;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .firstpage-box {float: left;display: block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .lastpage-box {float: left;display: block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .lastpage-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .firstpage-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .firstpage-box a i {position: absolute;top: 12px;left: 12px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .lastpage-box a i {position: absolute;top: 12px;left: 12px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .firstpage-box a:hover i {opacity: 1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .lastpage-box a:hover i {opacity: 1;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box {float: left;width: auto;height: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box ul {width: auto;height: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box ul li {display: inline-block;width: 38px;height: 38px;margin: 0 1px;border: 1px solid #ddd;text-align: center;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box ul li a {display: block;font-size: 13px;color: #555555;width: 100%;height: 100%;line-height: 38px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box ul li:hover {border-color: #8ccbff}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .notice-board .pageNation .page-box ul li a.addPage {color: #444;background-image: linear-gradient(45deg,#8ccbff, #fdd);font-weight: 600;}
+
+
+
+

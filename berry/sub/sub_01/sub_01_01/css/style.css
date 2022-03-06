@@ -1,0 +1,4 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .content-table table thead th:nth-child(1) {width: 20%;}
+#wrap #main #section1 .wrap .gap .container .content-table table thead th:nth-child(2) {width: 80%;border-right: 0;}

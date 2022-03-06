@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience {width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul {width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li {padding: 40px 30px 35px 30px;border-bottom: 1px solid #eee;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .left {float: left;width: 270px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .left img {display: block;width: auto;margin-right: 40px;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right {float: left;width: 870px;position: relative;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > h4 {font-size: 20px;color: #222;line-height: 150%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > p {font-size: 15px;color: #555;line-height: 150%;padding-top: 5px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > ul {padding-top: 20px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > ul > li {padding: 10px 0;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > ul > li > strong {font-size: 15px;color: #111;margin-right: 15px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > ul > li > span {font-size: 15px;color: #555;font-weight: 300;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap {position: absolute;bottom: 0;right: 0;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap > span {display: inline-block;border: 1px solid #060c30;background: #060c30;position: relative;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap > span > a {display: block;font-size: 15px;color: #fff;letter-spacing: 1px;padding: 15px 35px;position: relative;z-index: 2;transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap > span:hover > a {color: #060c30;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap > span > i {display: inline-block;position: absolute;z-index: 1;top: 0;left: -120%;width: 110%;height: 100%;background: #fff;transform: skewX(-20deg);transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .experience > ul > li > .right > .btn-wrap > span:hover > i {left: -5%;}
+

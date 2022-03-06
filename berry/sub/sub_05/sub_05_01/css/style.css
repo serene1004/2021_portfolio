@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board {padding-top: 15px;width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market-nav {width: 100%;padding-bottom: 15px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market-nav > ul {width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market-nav > ul > li {float: left;margin: 0 10px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market-nav > ul > li > a {display: block;font-size: 14px;color: #fff;font-weight: 400;line-height: 150%;padding: 5px 15px;border-radius: 10px;background: #8ccbff;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market-nav > ul > li > a.addClick {box-shadow: 0 0 10px rgba(140, 200, 255, .5), 0 0 15px rgba(140, 200, 255, .3);}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market {width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul {width: 100%;position: relative;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li {float: left;width: 33.3333%;height: 300px;padding: 15px 0;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap {margin: 0 15px;height: 100%;opacity: 0;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap .market-content {height: 100%;box-sizing: border-box;background: url(../../../img/img_subVisual01.jpg) no-repeat 95% 100%;background-size: cover;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(1) .market-gap.addScroll {opacity: 1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(2) .market-gap.addScroll {opacity: 1;transition-delay: .2s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(3) .market-gap.addScroll {opacity: 1;transition-delay: .4s;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:hover .market-gap .market-content {box-shadow: 0 5px 10px rgba(0, 0, 0, .3);}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(1) .market-gap .market-content {background-image: url(../../../img/market01.jpg);}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(2) .market-gap .market-content {background-image: url(../../../img/market02.jpg);}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:nth-child(3) .market-gap .market-content {background-image: url(../../../img/img_subVisual04.jpg);}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap .market-content a {display: block;width: 100%;height: 100%;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap .market-content .caption {width: 100%;height: 50px;text-align: center;background: rgba(0, 0, 0, .5);transform: translateY(10px);transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li:hover .market-gap .market-content .caption {transform: translateY(-50px);}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap .market-content .caption span {display: inline-block;width: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .market > ul > li .market-gap .market-content .caption span a {display: block;width: 100%;font-size: 20px;color: #fff;font-weight: 300;line-height: 50px;}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap {padding-top: 30px;position: relative;text-align: center;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap > span {display: inline-block;border: 1px solid #25282d;background: #41464e;position: relative;overflow: hidden;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap > span > a {display: block;font-size: 14px;color: #fff;letter-spacing: 1px;padding: 12px 24px;position: relative;z-index: 2;transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap > span:hover > a {color: #060c30;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap > span > i {display: inline-block;position: absolute;z-index: 1;top: 0;left: -140%;width: 120%;height: 100%;background: #fff;transform: skewX(-20deg);transition: all .6s ease-in-out;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap > span:hover > i {left: -10%;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap .market-search {display: inline-block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap .market-search select {display: inline-block;width: 80px;height: 40px;border: 1px solid #ddd;text-indent: 5px;font-family: 'Noto Sans KR';}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board  > .btn-wrap .market-search input {display: inline-block;width: 200px;height: 38px;border: 1px solid #ddd;text-indent: 5px;font-family: 'Noto Sans KR';}
+
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation {display: flex;justify-content: center;padding-top: 30px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .prev-box {float: left;display: block;margin: 0 2px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .next-box {float: left;display: block;margin: 0 2px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .next-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .prev-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .prev-box a i {position: absolute;top: 12px;left: 14px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .next-box a i {position: absolute;top: 12px;left: 14px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .prev-box a:hover i {opacity: 1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .next-box a:hover i {opacity: 1;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .firstpage-box {float: left;display: block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .lastpage-box {float: left;display: block;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .lastpage-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .firstpage-box a {display: block;width: 38px;height: 38px;border: 1px solid #ddd;position: relative;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .firstpage-box a i {position: absolute;top: 12px;left: 12px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .lastpage-box a i {position: absolute;top: 12px;left: 12px;opacity: .7;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .firstpage-box a:hover i {opacity: 1;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .lastpage-box a:hover i {opacity: 1;}
+
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box {float: left;width: auto;height: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box ul {width: auto;height: 100%;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box ul li {display: inline-block;width: 38px;height: 38px;margin: 0 1px;border: 1px solid #ddd;text-align: center;transition: all .6s;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box ul li a {display: block;font-size: 13px;color: #555555;width: 100%;height: 100%;line-height: 38px;}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box ul li:hover {border-color: #8ccbff}
+#wrap #main #section1 .wrap .gap .container .sub-content .content-table .market-board .pageNation .page-box ul li a.addPage {color: #444;background-image: linear-gradient(45deg,#8ccbff, #fdd);font-weight: 600;}
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>용담베리숲마을 팝업창</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        #popup-wrap {width: 100%;height: 100%;background: url(./img/img_examination0301.jpg) no-repeat 50% 50%;background-size: cover;}
+        #popup-wrap .gap {width: 100%;height: 100%;}
+        #popup-wrap .gap .container {width: 100%;height: 100%;}
+        #popup-wrap .gap .container .content {width: 100%;height: 100%;position: relative;}
+        #popup-wrap .gap .container .content h2 {text-align: center;font-size: 24px;color: #fff;width: 100%;height: 100%;line-height: 150%;display: flex;justify-content: center;align-items: center;}
+        #popup-wrap .gap .container .content .button-box {position: absolute;bottom: 20px;right: 20px;}
+        #popup-wrap .gap .container .content .button-box form span {display: inline-block;}
+        #popup-wrap .gap .container .content .button-box form span input[type="checkbox"] {width: auto;margin-right: 5px;}
+        #popup-wrap .gap .container .content .button-box form span label {font-size: 14px;color: #fff;}
+        #popup-wrap .gap .container .content .button-box form .close-btn {margin-left: 5px;width: 20px;height: 20px;border: 1px solid #343434;outline: 0;background: #dff;cursor: pointer;}
+    </style>
+
+</head>
+<body>
+    <div id="popup-wrap">
+        <div class="gap">
+            <div class="container">
+                <div class="content">
+                    <h2>용담 베리숲마을에<br>오신것을 환영합니다!</h2>
+                    <div class="button-box">
+                        <form name="popupForm">
+                            <span>
+                                <input type="checkbox" name="coockiecheck" id="check" value="">
+                                <label for="check">오늘 하루동안 열지 않음</label>
+                            </span>
+                            <button class="close-btn">X</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var $closeBtn = document.querySelector('.close-btn');
+        var today = null;
+        var txt = '';
+
+        function setCookieFn(name, value, expires){
+            today = new Date();
+            today.setSeconds(today.getSeconds()+expires);
+
+            txt += name + '=' + value + ';'
+            txt += 'expires=' + today.toUTCString() + ';';
+            
+            document.cookie = txt;
+        }
+
+
+        $closeBtn.addEventListener('click', function(event){
+            event.preventDefault();
+            if(popupForm.coockiecheck.checked){
+                setCookieFn('popup', 'no', 15);
+            }
+            self.close();
+        });
+
+        
+    </script>
+</body>
+</html>

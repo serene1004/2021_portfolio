@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Josun Busan</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/response.css">
+
+    <!-- palyfair fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Icons Font Awesome 5 -->
+    <script src="./icons/fontawesome.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- OpenSource jQuery 1.12.4 -->
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+    <script src="./js/lib/jquery.touchSwipe.js"></script>
+    <script src="./js/lib/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+    <div id="skip">
+        <a href="#header">헤더 바로가기</a>
+        <a href="#main">메인 바로가기</a>
+        <a href="#footer">푸터 바로가기</a>
+    </div>
+    <!-- // #skip -->
+    <div id="wrap">
+        <header id="header">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <div class="header-box clearfix">
+                            <div class="left-box">
+                                <span>
+                                    <a href="javascript:" class="new-hotel-tap">JOSUN HOTELS & RESORTS</a>
+                                </span>
+                                <span>
+                                    <a href="javascript:" class="find-hotel">호텔찾기<img src="./img/icon_search_11x11.png" alt="" class="find-hotel-icon"></a>
+                                </span>
+                                <span>
+                                    <a href="javascript:" class="lang-KR">KR<img src="./img/icon_lang.png" alt="" class="lang-change-icon"></a>
+                                </span>
+                                <span>
+                                    <a href="javascript:" class="lang-EN">EN</a>
+                                </span>
+                            </div>
+                            <div class="right-box">
+                                <ul class="clearfix">
+                                    <li><a href="javascript:">로그인</a></li>
+                                    <li><span></span><a href="javascript:">회원가입</a></li>
+                                    <li><span></span><a href="javascript:">예약확인</a></li>
+                                    <li><span></span><a href="javascript:">멤버십</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="logo">
+                            <h1>GRAND JOSUN</h1>
+                            <a href="javascript:" class="logo-wrap">
+                                <i class="logo-white"></i>
+                                <i class="logo-black"></i>
+                            </a>
+                        </div>
+                        <nav id="nav">
+                            <div class="nav-gap">
+                                <div class="gnb-wrap">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-title-btn">
+                                                <span>RESERVATION
+                                                    <img src="./img/icon_side_button.png" alt="" class="title-btn-img">
+                                                    <i class="gnb-line"></i>
+                                                </span>
+                                            </a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb1-title">
+                                                        <span class="lnb-title-btn">RESERVATION</span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li><a href="javascript:" class="lnb-btn lnb0-btn1">ROOM</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb0-btn2">DINING</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb0-btn3">MEMBERSHIP</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="gnb-vertical"></span>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn1"><span>ROOMS<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb2-title">
+                                                        <span class="lnb-title-btn">ROOMS<br><i>한눈에 보기</i></span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li>
+                                                            <a href="javascript:" class="lnb-btn lnb1-btn1">ROOM<i class="lnb-right-arrow"></i></a>
+                                                            <ul>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn1-sub1">SUPERIOR</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn1-sub2">DELUXE</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn1-sub3">PREMIER</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:" class="lnb-btn lnb1-btn2">KIDS<i class="lnb-right-arrow"></i></a>
+                                                            <ul>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn2-sub1">KIDS SUPERIOR</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn2-sub2">KIDS DELUXE</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn2-sub3">KIDS SUITE</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:" class="lnb-btn lnb1-btn3">SUITE<i class="lnb-right-arrow"></i></a>
+                                                            <ul>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn3-sub1">CORNER SUITE</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn3-sub2">EXECUTIVE SUITE</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn3-sub3">ROYAL SUITE</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb1-btn3-sub4">GRAND SUITE</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn2"><span>DINING<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb3-title">
+                                                        <span class="lnb-title-btn">DINING<br><i>한눈에 보기</i></span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li><a href="javascript:" class="lnb-btn lnb2-btn1">ARIA</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb2-btn2">PALAIS DE CHINE</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb2-btn3">LOUNGE & BAR </a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb2-btn4">JOSUN DELI</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn3"><span>OFFERS<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb3-title">
+                                                        <span class="lnb-title-btn">OFFERS</span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li><a href="javascript:" class="lnb-btn lnb3-btn1">PACKAGE</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb3-btn2">EVENT</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn4"><span>MEETING & WEDDING<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb5-title">
+                                                        <span class="lnb-title-btn">MEETING & WEDDING<br><i>한눈에 보기</i></span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li>
+                                                            <a href="javascript:" class="lnb-btn lnb4-btn1">MEETING<i class="lnb-right-arrow"></i></a>
+                                                            <ul>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb4-btn1-sub1">BALLROOM</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb4-btn1-sub2">MEETING ROOM</a></li>
+                                                                <li><a href="javascript:" class="lnb-btn-sub lnb4-btn1-sub3">BOARD ROOM</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb4-btn2">WEDDING</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn5"><span>ACTIVITY<i class="gnb-line"></i></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn6"><span>FACILITIES<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb6-title">
+                                                        <span class="lnb-title-btn">FACILITIES<br><i>한눈에 보기</i></span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li><a href="javascript:" class="lnb-btn lnb6-btn1">HEAVENLY POOL</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb6-btn2">FITNESS</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb6-btn3">SAUNA</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb6-btn4">LENDING LIBRARY</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb6-btn5">ENTERTAINMENT</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:" class="gnb-btn gnb-btn7"><span>ABOUT<i class="gnb-line"></i></span></a>
+                                            <div class="lnb-wrap">
+                                                <div class="lnb-gap clearfix">
+                                                    <div class="lnb-title lnb7-title">
+                                                        <span class="lnb-title-btn">ABOUT</span>
+                                                    </div>
+                                                    <ul class="clearfix">
+                                                        <li><a href="javascript:" class="lnb-btn lnb7-btn1">ABOUT US</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb7-btn2">JOSUN JUNIOR</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb7-btn3">GALLERY</a></li>
+                                                        <li><a href="javascript:" class="lnb-btn lnb7-btn4">FAQ</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="mobile-btn-wrap">
+                            <a href="javascript:" class="mobile-btn">
+                                <i class="bar bar1"></i>
+                                <i class="bar bar2"></i>
+                                <i class="bar bar3"></i>
+                                <i class="bar bar4"></i>
+                            </a>
+                        </div>
+                        <!-- // mobile-btn -->
+                    </div>
+                </div>
+            </div>
+            <div class="side-btn-box">
+                <a href="javascript:" class="side-btn">
+                    <span class="side-btn-img"><img src="./img/icon_side_button.png" alt=""></span>
+                    <span class="side-wrap">
+                        <span class="side-btn-open">OPEN OFFERS</span>
+                    </span>    
+                </a>
+            </div>
+            <!-- // side-box -->
+        </header>
+        <!-- // header -->
+        <main id="main">
+            <section id="section1" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <div class="mainBg-slide-container">
+                                <div class="mainBg-slide-view">
+                                    <ul class="mainBg-slide-wrap clearfix">
+                                        <li class="mainBg-slide slide0"></li>
+                                        <li class="mainBg-slide slide1"></li>
+                                        <li class="mainBg-slide slide2"></li>
+                                    </ul>
+                                    <div class="main-text-wrap">
+                                        <h2 class="hide">Grand Josun Hotel</h2>
+                                        <a href="javascript:">
+                                            <span class="main-text1">Special Offer<i>Room Package</i></span>
+                                            <span class="main-text2">
+                                                <span>City</span>
+                                                <span>Breaks!</span>
+                                            </span>
+                                            <span class="main-text3">감각적인 시티뷰, 도심 속의 힐링. 호캉스를 알차게 잘 즐기는 방법!</span>
+                                        </a>
+                                    </div>
+                                    <div class="mainBg-Btn-wrap">
+                                        <span class="mainBg-prev"><a href="javascript:" class="prev-btn"><i></i></a></span>
+                                        <span class="mainBg-stop-start">
+                                            <a href="javascript:" class="stop-btn"><i></i></a>
+                                            <a href="javascript:" class="start-btn"><i></i></a>
+                                        </span>
+                                        <span class="mainBg-next"><a href="javascript:" class="next-btn"><i></i></a></span>
+                                    </div>
+                                </div>
+                                <!-- <div class="calender">
+                                    <a href="javascript:" class="prev-btn"><i class="material-icons">keyboard_arrow_left</i></a>
+                                    <a href="javascript:" class="next-btn"><i class="material-icons">keyboard_arrow_right</i></a>
+                                    <table>
+                                        <caption></caption>
+                                        <tr>
+                                            <th class="sun">SUN</th>
+                                            <th>MON</th>
+                                            <th>TUS</th>
+                                            <th>WEN</th>
+                                            <th>THU</th>
+                                            <th>FRI</th>
+                                            <th class="sat">SAT</th>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section1 -->
+            <section id="section2" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container clearfix">
+                            <div class="room-content">
+                                <div class="content-gap">
+                                    <div class="room-box">
+                                        <h2 class="hide">ROOM</h2>
+                                        <h3>Revitalizing Space</h3>
+                                        <p>온전한 쉼과 재충전에 집중할 수 있는 더 없이 완벽한 공간</p>
+                                        <span class="rooms">ROOMS / SUITES / KIDS</span>
+                                        <a href="javascript:" class="room-btn">
+                                            <i class="room-whitebtn"></i>
+                                            <i class="room-blackbtn"></i>
+                                        </a>
+                                    </div>
+                                    <div class="earlybird-wrap">
+                                        <a href="javascript:" class="earlybird-btn">
+                                            <span class="early-title">package</span>
+                                            <span class="early-text">early bird</span>
+                                            <span class="early-date">2020.08.27 - 2021.09.01</span>
+                                            <span><img src="./img/Earlybird.jpg" alt=""></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide-container">
+                                <div class="slide-view">
+                                    <ul class="slide-wrap clearfix">
+                                        <li class="slide slide0"></li>
+                                        <li class="slide slide1"></li>
+                                        <li class="slide slide2"></li>
+                                        <li class="slide slide3"></li>
+                                        <li class="slide slide4"></li>
+                                        <li class="slide slide0"></li>
+                                        <li class="slide slide1"></li>
+                                        <li class="slide slide2"></li>
+                                        <li class="slide slide3"></li>
+                                        <li class="slide slide4"></li>
+                                        <li class="slide slide0"></li>
+                                        <li class="slide slide1"></li>
+                                        <li class="slide slide2"></li>
+                                        <li class="slide slide3"></li>
+                                        <li class="slide slide4"></li>
+                                    </ul>
+                                    <div class="slide-Btn-wrap">
+                                        <span class="slide-prev"><a href="javascript:" class="prev-btn"><i></i></a></span>
+                                        <span class="slide-stop-start">
+                                            <a href="javascript:" class="stop-btn"><i></i></a>
+                                            <a href="javascript:" class="start-btn"><i></i></a>
+                                        </span>
+                                        <span class="slide-next"><a href="javascript:" class="next-btn"><i></i></a></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section2 -->
+            <section id="section3" class="section">
+                <div class="dinning-bg"></div>
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <div class="dinning-content">
+                                <div class="dinning-gap">
+                                    <div class="dinning-box">
+                                        <h2 class="hide">DINNING</h2>
+                                        <h3>Handpicked Gourmet Experience</h3>
+                                        <p>최고만 엄선한 미식의 경험</p>
+                                        <span class="dinning">BUFFET / CHINESE / LOUNGE&BAR</span>
+                                        <a href="javascript:" class="dinning-btn">
+                                            <i class="dinning-whitebtn"></i>
+                                            <i class="dinning-blackbtn"></i>
+                                        </a>
+                                    </div>
+                                    <div class="promotion-wrap">
+                                        <a href="javascript:" class="promotion-btn">
+                                            <span class="promotion-title">PROMOTION</span>
+                                            <span class="promotion-text">Afternoon Tea Set Package</span>
+                                            <span class="promotion-date">2021.01.18 - 2021.12.31</span>
+                                            <span><img src="./img/josundeli.png" alt=""></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            <!-- // section3 -->
+            <section id="section4" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <div class="facility-gap">
+                                <div class="facility-textbox">
+                                    <h2 class="hide">FACILITY</h2>
+                                    <h3>Iconic Facilities</h3>
+                                    <p>POOL / SAUNA / FITNESS</p>
+                                    <a href="javascript:" class="facility-btn">
+                                        <i class="facility-whitebtn"></i>
+                                        <i class="facility-blackbtn"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="slide-container">
+                                <div class="slide-view">
+                                    <ul class="slide-wrap clearfix">
+                                        <li class="slide slide0 mouseon">
+                                            <div class="slide-gap">
+                                                <h3 class="slide-text">6F POOL</h3>
+                                            </div>
+                                        </li>
+                                        <li class="slide slide1">
+                                            <div class="slide-gap">
+                                                <h3 class="slide-text">6F SAUNA</h3>
+                                            </div>
+                                        </li>
+                                        <li class="slide slide2">
+                                            <div class="slide-gap">
+                                                <h3 class="slide-text">6F FITNESS</h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section4 -->            
+            <section id="section5" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <div class="activity-box">
+                                <h2 class="hide">ACTIVITY</h2>
+                                <h3>Get Active</h3>
+                                <p>몸과 마음에 활력을 더해 줄 다채로운 액티비티</p>
+                                <span class="activity">INDOOR ACTIVITY / OUTDOOR ACTIVITY</span>
+                                <a href="javascript:" class="activity-btn">
+                                    <i class="activity-cleanbtn"></i>
+                                    <i class="activity-whitebtn"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section5 -->
+            <section id="gallery" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <div class="title">
+                                <h3>Gallery</h3>
+                                <p>드넓게 펼쳐진 바다가 보이는 객실에서 신선한 휴식을 제공합니다.<br>
+                                    중식당, 뷔페 레스토랑, 라운지 & 바가 전하는 특색 있는 다이닝으로 미식의 즐거움을 더하고, 수영장과 사우나 등<br>
+                                    다양한 휴식 공간에서 진정한 삶의 여유를 만끽할 수 있습니다.</p>
+                            </div>
+                            <div class="content">
+                                <nav id="gallery-nav">
+                                    <ul class="gallery-btn-wrap">
+                                        <li><a href="javascript:" class="gallery-btn addNav">ALL</a></li>
+                                        <li><a href="javascript:" class="gallery-btn">ROOMS</a></li>
+                                        <li><a href="javascript:" class="gallery-btn">RESTAURANTS</a></li>
+                                        <li><a href="javascript:" class="gallery-btn">FACILITIES</a></li>
+                                        <li><a href="javascript:" class="gallery-btn">MEETING&WEDDING</a></li>
+                                    </ul>
+                                </nav>
+                                <div class="gallery-wrap">
+                                    <ul>
+                                        <li class="gallery-list gallery-list0">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Deluxe</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list1">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Ball room</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list2">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Lounge & Bar</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list3">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">aria</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list4">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Heavenly Pool</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list5">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Superior</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list6">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Executive Suite</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list7">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Josun deli</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list8">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Sauna</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list9">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Sauna</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list10">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Presidential Suite</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list11">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Kids Suite</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list12">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Kids Suite</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list13">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Juice Bar</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="gallery-list gallery-list14">
+                                            <div class="gallery-gap">
+                                                <div class="gallery-content">
+                                                    <div class="caption-gap">
+                                                        <a href="javascript:">
+                                                            <span class="caption-text">Fitness</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // gallery -->
+            <section id="section6" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <ul class="membership-wrap clearfix">
+                                <li class="membership-left">
+                                    <h2 class="hide">MEMBERSHIP</h2>
+                                    <h3>Club Josun</h3>
+                                    <div class="membership">JOSUN HOTELS & RESORTS MEMBERSHIP PROGRAM</div>
+                                    <p>조선호텔앤리조트의 멤버십 프로그램 클럽조선은 품격있는 라이프스타일과 특별한 경험을 제안합니다.<br>
+                                        클럽조선 회원이 되셔서 다채로운 혜택과 최상의 서비스를 누려보세요.</p>
+                                    <a href="javascript:" class="membership-btn">
+                                        <span class="membership-btn-text">VIEW MORE & JOIN</span>
+                                        <span class="membership-btn-block"></span>
+                                    </a>
+                                </li>
+                                <li class="membership-right">
+                                    <h4>MEMBERS ONLY</h4>
+                                    <a href="javascript:" class="members-btn">
+                                        <span class="membership-img"></span>
+                                        <span class="membership-name">CLUB JOSUN</span>
+                                        <span class="membership-date">2020.11.01 - 2021.12.31</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section6 -->  
+            <section id="section7" class="section">
+                <div class="wrap">
+                    <div class="gap">
+                        <div class="container">
+                            <h2 class="hide">WEDDING</h2>
+                            <h3>The Perfect Venue For Your Special Event</h3>
+                            <p>인생의 특별한 순간, 이벤트, 컨퍼런스를<br>
+                                그랜드 조선 부산에서 준비해보세요.</p>
+                            <div class="btn-wrap">
+                                <a href="javascript:" class="meeting-btn">
+                                    <span class="meeting-btn-text">미팅 자세히 보기</span>
+                                    <span class="meeting-btn-block"></span>
+                                </a>
+                                <a href="javascript:" class="wedding-btn">
+                                    <span class="wedding-btn-text">웨딩 자세히 보기</span>
+                                    <span class="wedding-btn-block"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // section7 -->  
+            <ul class="main-indicator">
+                <li class="indicator indicator1 mouseon"><a href="#section1" class="mouseon">HOME</a></li>
+                <li class="indicator indicator2"><a href="#section2">ROOMS</a></li>
+                <li class="indicator indicator3"><a href="#section3">DINING</a></li>
+                <li class="indicator indicator4"><a href="#section4">FACILITY</a></li>
+                <li class="indicator indicator5"><a href="#section5">ACTIVITY</a></li>
+                <li class="indicator indicator6"><a href="#section6">MEMBERSHIP</a></li>
+                <li class="indicator indicator7"><a href="#section7">WEDDING</a></li>
+            </ul>
+            <!-- // main-indicator -->
+        </main>
+        <!-- // main -->
+        <footer id="footer" class="section">
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container">
+                        <ul class="hotels-wrap clearfix">
+                            <li class="hotels hotel0"><a href="javascript:"></a></li>
+                            <li class="hotels hotel1"><a href="javascript:"></a></li>
+                            <li class="hotels hotel2"><a href="javascript:"></a></li>
+                            <li class="hotels hotel3"><a href="javascript:"></a></li>
+                            <li class="hotels hotel4"><a href="javascript:"></a></li>
+                            <li class="hotels hotel5"><a href="javascript:"></a></li>
+                            <li class="hotels hotel6"><a href="javascript:"></a></li>
+                            <li class="hotels hotel7"><a href="javascript:"></a></li>
+                            <li class="hotels hotel8"><a href="javascript:"></a></li>
+                        </ul>
+                        <div class="footer-box clearfix">
+                            <div class="footer-logo-wrap">
+                                <a href="javascript:" class="footer-logo">JOSUN HOTELS & RESORTS</a>
+                            </div>
+                            <div class="hotelinfo-wrap">
+                                <ul class="info clearfix">
+                                    <li><a href="javascript:">고객센터</a></li>
+                                    <li><a href="javascript:">이용약관</a></li>
+                                    <li><a href="javascript:">이메일무단수집금지</a></li>
+                                    <li><a href="javascript:">영상정보처리기기운영·관리방침</a></li>
+                                    <li><a href="javascript:">개인정보처리방침</a></li>
+                                    <li><a href="javascript:">호텔 정책</a></li>
+                                </ul>
+                                <address id="address">
+                                    <span>서울시 중구 소공로 106</span>
+                                    <span>대표이사 한채양</span>
+                                    <span>T. 051-922-5000</span>
+                                    <p>사업자등록번호 719-85-01435 통신판매신고번호 중구 0623호</p>
+                                    <div class="copyright">Copyright © 2020 JOSUN HOTELS & RESORTS Co. All rights reserved.</div>
+                                </address>
+                                <div class="familysite">
+                                    <a href="javascript:" class="familysite-btn">family sites<i></i></a>
+                                    <div class="familylist-wrap">
+                                        <ul class="family-list">
+                                            <li><a href="https://www.shinsegaegroupinside.com/">신세계그룹 인사이드</a></li>
+                                            <li><a href="http://www.ssg.com/">SSG.COM</a></li>
+                                            <li><a href="http://tv.ssg.com/">신세계TV쇼핑</a></li>
+                                            <li><a href="http://www.shinsegae.com/">신세계백화점</a></li>
+                                            <li><a href="http://store.emart.com/">이마트</a></li>
+                                            <li><a href="http://www.emarteveryday.co.kr/">이마트 에브리데이</a></li>
+                                            <li><a href="https://emart24.co.kr/">이마트24</a></li>
+                                            <li><a href="http://www.casamiashop.com/main.casa">까사미아</a></li>
+                                            <li><a href="http://www.sikorea.co.kr/">신세계인터내셔날</a></li>
+                                            <li><a href="http://www.shinsegaefood.com/">신세계푸드</a></li>
+                                            <li><a href="http://www.shinsegae-enc.com/">신세계건설</a></li>
+                                            <li><a href="http://www.shinsegae-inc.com/">신세계I&C</a></li>
+                                            <li><a href="http://www.istarbucks.co.kr/">스타벅스커피코리아</a></li>
+                                            <li><a href="http://www.ssgdfm.com/shop/main">신세계면세점</a></li>
+                                            <li><a href="http://www.premiumoutlets.co.kr/">신세계사이먼</a></li>
+                                            <li><a href="http://www.shinsegae-lnb.com/">신세계 L&B</a></li>
+                                            <li><a href="http://www.shinsegaeproperty.com/ko/index.do">신세계 프라퍼티</a></li>
+                                            <li><a href="http://www.shinsegaecentralcity.com/">신세계센트럴시티</a></li>
+                                        </ul>
+                                    </div>    
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="w3c">
+                            <p>
+                                <a href="http://validator.kldp.org/check?uri=referer" onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))">
+                                <img src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="83">
+                                </a>
+                            </p>
+                            <p>
+                                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="올바른 CSS입니다!" />
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- // footer -->
+        <div class="offers-blind"></div>
+        <div id="offers">
+            <div class="close-offers-wrap">
+                <a href="javascript:" class="close-offers-btn">
+                    <span class="close-offers-img"><img src="./img/icon_side_button.png" alt=""></span>
+                    <span class="close-wrap">
+                        <span class="close-offers">CLOSE OFFERS</span>
+                    </span>    
+                </a>
+            </div>
+            <div class="wrap">
+                <div class="gap">
+                    <div class="container clearfix">
+                        <div class="close-btn-wrap">
+                            <a href="javascript:" class="close-btn"></a>
+                        </div>
+                        <div class="side-left">
+                            <a href="javascript:" class="go-offers">GO-TO OFFERS<i class="side-icon"></i></a>
+                            <h3>FEATURED PACKAGES</h3>
+                            <div class="package-btn-wrap">
+                                <a href="javascript:" class="package-prev-btn"><i></i></a>
+                                <span class="package-line"></span>
+                                <a href="javascript:" class="package-next-btn"><i></i></a>
+                            </div>
+                            <div class="side-left-wrap">
+                                <div class="side-package">
+                                    <div class="slide-container">
+                                        <div class="slide-view">
+                                            <ul class="slide-wrap clearfix">
+                                                <li class="slide slide2">
+                                                    <div class="packgae-content">
+                                                        <div class="caption-gap">
+                                                            <a href="javascript:">
+                                                                <span class="caption-text">자세히 보기</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="package-text">
+                                                        <h3>Just Like a Holiday!</h3>
+                                                        <p>오션뷰에서 즐기는 브런치와 여유로운 시간들. 휴일처럼 느긋한 스테이를 누려보세요!</p>
+                                                        <span class="package-date">2021.01.25 - 2021.04.30</span>
+                                                    </div>
+                                                </li>
+                                                <li class="slide slide0">
+                                                    <div class="packgae-content">
+                                                        <div class="caption-gap">
+                                                            <a href="javascript:">
+                                                                <span class="caption-text">자세히 보기</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="package-text">
+                                                        <h3>More to Taste</h3>
+                                                        <p>싱그러운 봄, 미식의 향연.</p>
+                                                        <span class="package-date">2021.03.04 - 2021.03.31</span>
+                                                    </div>
+                                                </li>
+                                                <li class="slide slide1">
+                                                    <div class="packgae-content">
+                                                        <div class="caption-gap">
+                                                            <a href="javascript:">
+                                                                <span class="caption-text">자세히 보기</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="package-text">
+                                                        <h3>City Breaks!</h3>
+                                                        <p>감각적인 시티뷰, 도심 속의 힐링. 호캉스를 알차게 잘 즐기는 방법!</p>
+                                                        <span class="package-date">2021.02.22 - 2021.03.31</span>
+                                                    </div>
+                                                </li>
+                                                <li class="slide slide2">
+                                                    <div class="packgae-content">
+                                                        <div class="caption-gap">
+                                                            <a href="javascript:">
+                                                                <span class="caption-text">자세히 보기</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="package-text">
+                                                        <h3>Just Like a Holiday!</h3>
+                                                        <p>오션뷰에서 즐기는 브런치와 여유로운 시간들. 휴일처럼 느긋한 스테이를 누려보세요!</p>
+                                                        <span class="package-date">2021.01.25 - 2021.04.30</span>
+                                                    </div>
+                                                </li>
+                                                <li class="slide slide0">
+                                                    <div class="packgae-content">
+                                                        <div class="caption-gap">
+                                                            <a href="javascript:">
+                                                                <span class="caption-text">자세히 보기</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="package-text">
+                                                        <h3>More to Taste</h3>
+                                                        <p>싱그러운 봄, 미식의 향연.</p>
+                                                        <span class="package-date">2021.03.04 - 2021.03.31</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="side-membership">
+                                    <h3>MEMBERSHIP</h3>
+                                    <p>그랜드 조선만의 포인트 혜택 및 특전을 제공하는 새로운 통합 멤버십 서비스
+                                        모든 회원님께 특별한 혜택 및 할인 서비스등 다양한 특전을 제공합니다.</p>
+                                    <a href="javascript:" class="side-membership-btn">
+                                        <span class="side-membership-btn-text">가입하기</span>
+                                        <span class="side-membership-btn-block"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="side-right">
+                            <h3>EVENTS TO REMEMBER</h3>
+                            <div class="side-right-wrap"> 
+                                <div class="side-event-dinning">
+                                    <div class="side-dinning-img">
+                                        <div class="caption-gap">
+                                            <a href="javascript:">
+                                                <span class="caption-text">자세히 보기</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="side-dinning-text">
+                                        <h4>[F&B] ROMANTIC ARIA</h4>
+                                        <p>로맨틱 다이닝을 위한 추천 와인 4종</p>
+                                        <span class="side-dinning-date">2021.03.08 - 2021.03.31</span>
+                                    </div>
+                                </div>
+                                <div class="side-event-promotion">
+                                    <div class="side-event-promotion">
+                                        <div class="side-promotion-img">
+                                            <div class="caption-gap">
+                                                <a href="javascript:">
+                                                    <span class="caption-text">자세히 보기</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="side-promotion-text">
+                                            <h4>[F&B] 아리아 봄 프로모션</h4>
+                                            <p>제철 식재료를 활용한 봄 스페셜 메뉴들을 선보입니다</p>
+                                            <span class="side-promotion-date">2021.03.08 - 2021.05.31</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // #wrap -->
+
+    <script src="./js/gjb.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media all and (max-width:1700px){
+    #wrap #main #section1 .wrap .gap .container .left-box .title {left: 400px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title h4 {font-size: 17px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title p {font-size: 35px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title h2 span {font-size: 45px;}
+}
+
+@media all and (max-width:1500px){
+    #wrap #header .wrap .gap .container .header-box .box-gap {padding: 85px 30px 40px 30px;}
+
+    #wrap #main #section1 .wrap .gap .container .left-box .title {left: 350px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title h4 {font-size: 16px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title p {font-size: 30px;}
+    #wrap #main #section1 .wrap .gap .container .left-box .title h2 span {font-size: 40px;}
+}
+
+@media all and (max-width:1200px){
+    #wrap #main #section1 .wrap .gap .container .left-box .title {left: 350px;}
+
+}
